@@ -90,8 +90,16 @@
                                         </a>
                                 </button>
                             </div>
-                            <div class="about__top--image">
-                                <img src="images/mainFoto.png">
+
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <img src="images/mainFoto.png">
+                                    <img src="images/mainSlaiderFoto.jpg">
+                                    <img src="images/Slaider.avif">
+                                    <img src="images/SlaiderFoto.jpg">
+                                </div>
+                                <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                                <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
                             </div>
                         </div>
                         <div class="about__bottom">
@@ -365,7 +373,7 @@
                                 </li>
                             
                                 <li class="footer__contacts--button">
-                                    <button class="contacts--btn">
+                                    <button class="contacts--btn" id="btn-1" onclick="showMore()">
                                         Как проехать?
                                     </button>
                                 </li>
@@ -378,14 +386,17 @@
                                     Большой пр. 12
                                 </li>
                                 <li class="footer__contacts--button">
-                                    <button class="contacts--btn">
+                                    <button class="contacts--btn" id="btn-2" onclick="showCard()">
                                         Как проехать?
                                     </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
-
+                </div>
+                <div class="container">
+                    <iframe id="card" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d571.8932162802288!2d30.367923052928397!3d59.929965009377874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0J3QtdCy0YHQutC40Lkg0L_RgC4gMTQwLCDQv9C-0LwuIDEw!5e0!3m2!1sru!2sby!4v1693906589561!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe id="card2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d571.4774177917135!2d30.29194710760302!3d59.95408083646635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963138384c2df5%3A0x588fdaa9e53e18f!2z0JHQvtC70YzRiNC-0Lkg0L_RgNC-0YHQv9C10LrRgiDQny7QoS4sIDEyLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTcxOTg!5e0!3m2!1sru!2sby!4v1693908765697!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </footer>
             <header>

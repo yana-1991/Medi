@@ -123,7 +123,7 @@ document.addEventListener('keydown', function (e) {
 });
 
 
-//Отправка заявки в ТГ
+Г
 
 
 

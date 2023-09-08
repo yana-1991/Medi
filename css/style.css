@@ -18,8 +18,8 @@ body {
 .container {
     max-width: 1350px;
     margin: 0 auto;
-
 }
+
 .header {
     height: 90px;
 }
@@ -71,7 +71,6 @@ body {
     text-align: left;
     text-decoration:none;
     color: rgba(0, 0, 0, 1);
-
 
 }
 
@@ -153,7 +152,6 @@ body {
 }
 
 
-
 .menu__item:not(:last-child) {
     padding-right: 65px;
 }
@@ -222,11 +220,9 @@ h1 {
 
  /*Slaider*/
 
-.slider-container {    
-    height: 533px;
-}
 
 .slider-container {
+    height: 533px;
     position: relative;
     width: 746px;
     height: 533px;
@@ -299,12 +295,12 @@ h1 {
 }
 
 .about__link {
-font-size: 21px;
-font-weight: 500;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: center;
-color: rgba(255, 255, 255, 1);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -334,7 +330,7 @@ color: rgba(255, 255, 255, 1);
 }
 
 
-/*Инновации*/
+/*innovation*/
 
 .innovation {
     margin-bottom: 80px;
@@ -649,22 +645,22 @@ color: rgba(255, 255, 255, 1);
 }
 
 .item-1 {
-    background-image: url(images/btn-1.png);
+    background-image: url(../images/btn-1.png);
     background-repeat: no-repeat;
     background-size: 306px 240px;
 }
 .item-2 {
-    background-image: url(images/btn-2.png);
+    background-image: url(../images/btn-2.png);
     background-repeat: no-repeat;
     background-size: 306px 240px;
 }
 .item-3 {
-    background-image: url(images/btn3.png);
+    background-image: url(../images/btn3.png);
     background-repeat: no-repeat;
     background-size: 306px 240px;
 }
 .item-4 {
-    background-image: url(images/btn4.png);
+    background-image: url(../images/btn4.png);
     background-repeat: no-repeat;
     background-size: 306px 240px;
 }

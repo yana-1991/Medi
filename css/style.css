@@ -954,7 +954,10 @@ margin-bottom: 50px;
 }
 
 
-.cosmetologiya--text {
+
+
+.cosmetologiya--text,
+.stomatologiya--text {
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 22px;
@@ -967,38 +970,46 @@ margin-bottom: 50px;
     margin-bottom: 40px;
 }
 
-.cosmetologiya--title {
+.cosmetologiya--title,
+.stomatologiya--title {
     font-size: 30px;
     margin-bottom: 30px;
     color:  rgba(0, 134, 138, 1);
   }
 
-.cosmetologiya__list {
+.cosmetologiya__list,
+.stomatologiya__list {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.cosmetologiya--item {
+.cosmetologiya--item,
+.stomatologiya--item {
     display: flex;
     flex-direction: column;
 
 }
 
-.cosmetologiya-link {
+.cosmetologiya-link,
+.stomatologiya--link {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
     text-decoration: none;
     color: rgba(0, 134, 138, 1);
 }
-.cosmetologiya__list--text{
+.cosmetologiya__list--text,
+.stomatologiya__list--text{
     font-size: 18px;
 }
 
-.cosmetologiya--item:last-child{
+.stomatologiya__list:last-child{
     margin-bottom: 40px;
 }
+
+
+
 
 .salon__about {
     background-color:  rgba(79, 191, 165, 1);

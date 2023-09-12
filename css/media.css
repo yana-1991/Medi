@@ -191,7 +191,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-.cosmetologiya--main {
+.cosmetologiya--main,
+.stomatologiya--main {
     padding-left: 20px;
     padding-right: 20px;
 }

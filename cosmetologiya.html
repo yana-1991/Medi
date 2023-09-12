@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Cosmetologiya Medi</title>
+</head>
+<body>
+    <div class="site">
+        <header>
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__wrap--logo">
+                        <a href="index.html" class="header__wrap--link"><img src="images/logo.png" class="main--logo" alt="logo"></a>
+                        <a href="index.html" class="header__wrap--link"><img src="images/text--logo.png" class="text--logo"></a>
+                    </div>
+                    <div class="phone">
+                       <a href="tel: +7 (123) 456 78 90" class="phone--link" target="_blank">+7 (123) 456 78 90</a>
+                    </div>
+                    <div class="address">
+                        <a href="salon.html" class="address--link">Наши салоны</a>
+                    </div>
+                    <div class="header__wrap--button">
+                        <button class="header__wrap--btn">
+                            Версия для слабовидящих
+                        </button>
+                    </div>
+                    <div class="social">
+                        <div class="header__social vk">
+                        <a href="https://vk.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/vk.png">
+                        </a>
+                    </div>
+                    <div class="header__social youtube">
+                        <a href="https://www.youtube.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/yuotube.png">
+                        </a>
+                    </div>
+                    <div class="header__social fb">
+                        <a href="https://ru-ru.facebook.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/fb.png">
+                        </a>
+                    </div>
+                    <div class="header__social instagram">
+                        <a href="https://www.instagram.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/instagram.png">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="container">
+                <div class="menu__wrap">
+                    <div class="menu--main">
+                        <div class="overlay-content">
+                            <div class="nav--btn" onclick="openNav()">
+                                 <div class="menu--icon"></div>
+                                <div class="menu--icon"></div>
+                                <div class="menu--icon"></div>
+                            </div>
+                            <ul id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <li class="menu__item"><a href="cosmetologiya.html" class="menu__link">Косметология</a></li>
+                                 <li class="menu__item"><a href="#" class="menu__link">Пластическая хирургия</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Стоматология</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Лазерная медицина</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="cosmetologiya.html" class="menu__link">Косметология</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Пластическая хирургия</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Стоматология</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Лазерная медицина</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu--button">
+                        <button class="menu--btn open-popup show-modal">
+                            запись на прием
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="about">
+                <div class="container">
+                    <div class="about__wrap">
+                        <div class="about__top">
+                            <div class="about__top--text">
+                                <h1>
+                                    Косметология
+                                </h1>
+                                <span class="about__top--main">
+                                    Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека благополучного и успешного.
+                                </span>
+                                <button class="about__top--btn">
+                                        <a href="#" class="about__top--link">
+                                            подробнее
+                                        </a>
+                                </button>
+                            </div>
+
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <img src="images/mainFoto.png">
+                                    <img src="images/mainSlaiderFoto.jpg">
+                                    <img src="images/Slaider.avif">
+                                    <img src="images/SlaiderFoto.jpg">
+                                </div>
+                                <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                                <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+                            </div>
+                        </div>
+                        <div class="about__bottom">
+                            <ul class="about__list">
+                                <a href="#" class="about__link"><li class="about__item first">Комплексные процедуры</li></a>
+                                <a href="#" class="about__link"><li class="about__item second">Центр обучения</li></a>
+                                <a href="#" class="about__link"><li class="about__item third">VIP клиенты</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cosmetologiya--main">
+                <div class="container">
+                    <h4 class="cosmetologiya--text">
+                        Физиотерапевтические методы лечения в сочетании с активными компонентами профессиональной косметики позволяют добиться прекрасных результатов в усилении клеточной регенерации, стимулировании обменных процессов, увлажнении, повышении тонуса и эластичности кожи, разглаживании морщин, коррекции фигуры.
+                    </h4>
+                    <div class="cosmetologiya--video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_dz9Ui37yTU?si=sq6SiDZF0KeHjsUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="cosmetologiya--title">
+                        Аппаратные процедуры для лица
+                    </h3>
+                    <div>
+                        <ul class="cosmetologiya__list">
+                            <li class="cosmetologiya--item">
+                                <a href="#" class="cosmetologiya-link">
+                                    Ультразвуковая терапия с LDM-массажем на аппарате IONTO-SONO effect
+                                </a>
+                                <span class="cosmetologiya__list--text">
+                                    Благодаря уникальному сочетанию сверхчастотного ультразвука и локального динамического микромассажа, после ультразвукового очищения происходит интенсивное воздействие на все слои кожи. Это активизирует обменные процессы, стимулирует выработку коллагена и эластина, позволяет разгладить мелкие морщинки и уменьшить воспалительные процессы. Эффект будет заметен уже после первой процедуры.
+                                </span>
+                            </li>
+                            <li class="cosmetologiya--item">
+                                <a href="#"  class="cosmetologiya-link">
+                                    RF-лифтинг на аппарате 3MAX
+                                </a>
+                                <span class="cosmetologiya__list--text">
+                                    За счет термического воздействия на кожу и более глубокие слои стимулируется синтез коллагена. При этом врач четко контролирует нагрев и его равномерность. В результате курса процедур достигается заметный эффект омоложения: кожа становится плотнее, уменьшаются второй подбородок и ярко выраженные морщины, овал лица становится четче. RF-лифтинг — прекрасная процедура для профилактики снижения тонуса кожи и опущения тканей.
+                                </span>
+                            </li>
+                            <li class="cosmetologiya--item">
+                                <a href="#"  class="cosmetologiya-link">
+                                    Дерматония на аппарате Skintonic
+                                </a>
+                                <span class="cosmetologiya__list--text">
+                                    Вакуумный массаж необходим для улучшения трофики и уменьшения наводненности тканей. Он улучшает микроциркуляцию, освобождает пространство для притока из крови питательных веществ, эффективно борется c отёками, улучшает цвет лица, делает кожу более ровной.
+                            </li>
+                            <li class="cosmetologiya--item">
+                                <a href="#"  class="cosmetologiya-link">
+                                    Ультразвуковой SMAS-лифтинг на аппарате Liftera
+                                </a>
+                                <span class="cosmetologiya__list--text">
+                                    Благодаря технологии фокусированного ультразвука (HIFU) воздействие происходит не только на кожу и подкожно-жировую клетчатку, но и на SMAS-слой (каркас, препятствующий возрастному опущению тканей). Эффективный точечный прогрев СМАС-слоя приводит к его резкому сокращению. В результате овал лица подтягивается, морщины разглаживаются, тонус кожи лица и шеи повышается, уходит второй подбородок. Процедура имеет накопительный эффект.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        <header>
+            <div class="container">
+                <div class="header__wrap wrap__bottom">
+                    <div class="header__wrap--logo">
+                        <a href="index.html" class="header__wrap--link"><img src="images/logo.png" class="main--logo" alt="logo"></a>
+                        <a href="index.html" class="header__wrap--link"><img src="images/text--logo.png" class="text--logo"></a>
+                    </div>
+                    <div class="phone">
+                       <a href="tel: +7 (123) 456 78 90" class="phone--link" target="_blank">+7 (123) 456 78 90</a>
+                    </div>
+                    <div class="address">
+                        <a href="salon.html" class="address--link">Наши салоны</a>
+                    </div>
+                    <div class="header__wrap--button">
+                        <button class="header__wrap--btn">
+                            Версия для слабовидящих
+                        </button>
+                    </div>
+                    <div class="social">
+                        <div class="header__social vk">
+                            <a href="https://vk.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/vk.png">
+                            </a>
+                        </div>
+                        <div class="header__social youtube">
+                            <a href="https://www.youtube.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/yuotube.png">
+                            </a>
+                        </div>
+                        <div class="header__social fb">
+                            <a href="https://ru-ru.facebook.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/fb.png">
+                            </a>
+                        </div>
+                        <div class="header__social instagram">
+                            <a href="https://www.instagram.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/instagram.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="popup">
+            <div class="modal hidden">
+              <button class="close-modal">&times;</button>
+              <form class="popup" id="tg">
+                <label>
+                    <div class="label__text">
+                        Ваше имя
+                    </div>
+                    <input class="popup--input" type="text" name="name">
+                </label>
+                <label>
+                    <div class="label__text">
+                        Ваш телефон
+                    </div>
+                    <input class="popup--input" type="tel" name="tel">
+                </label>
+                <label>
+                    <select class="popup--select" id="select">
+                        <option value="1">Выберите направление</option>
+                        <option value="Косметология">Косметология</option>
+                        <option value="Пластическая хирургия">Пластическая хирургия</option>
+                        <option value="Стоматология">Стоматология</option>
+                        <option value="Лазерная медицина">Лазерная медицина</option>
+                    </select>
+                </label>
+                <label for="date"><span class="label__cal">Выберите дату</span><br>
+                <input class="label__cal" type="date" id="date" name="date">
+            </label>
+                <button class="popup--btn" type="submit">Отправить</button>
+              </form>
+            </div>
+        </section>
+        </main>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="cosmetologiya.js"></script>
+<script>
+
+const TOKEN = "6634862100:AAEHrOo9A6kSdjugPpCjSNyVSTtgCeQmitA";
+const CHAT_ID = "-996343222";
+const URL_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+let select = document.getElementById('select');
+
+
+document.getElementById('tg').addEventListener('submit', function(e) {
+  e.preventDefault();
+  let message = `Новая Запись на прием: \n`;
+  message +=  `Имя: ${ this.name.value }\n`;
+  message +=  `Телефон: ${ this.tel.value }\n`;
+  message +=  `Направление:  ${ this.select.value }\n`;
+  message +=  `Дата:  ${ this.date.value }\n`;
+
+  axios.post(URL_API, {
+    chat_id: CHAT_ID,
+    parse_mod: 'html',
+    text: message
+  })
+  .then((res) => {
+    this.name.value = "";
+    this.tel.value = "";
+    this.select.value = '';
+    this.date.value = '';
+})
+ })
+
+select.addEventListener('change',(e)=>{
+console.log(select.value);
+})
+
+
+</script>
+</html>

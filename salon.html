@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Salon Medi</title>
+</head>
+<body>
+    <div class="site">
+        <header>
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__wrap--logo">
+                        <a href="index.html" class="header__wrap--link"><img src="images/logo.png" class="main--logo" alt="logo"></a>
+                        <a href="index.html" class="header__wrap--link"><img src="images/text--logo.png" class="text--logo"></a>
+                    </div>
+                    <div class="phone">
+                       <a href="tel: +7 (123) 456 78 90" class="phone--link" target="_blank">+7 (123) 456 78 90</a>
+                    </div>
+                    <div class="address">
+                        <a href="salon.html" class="address--link">Наши салоны</a>
+                    </div>
+                    <div class="header__wrap--button">
+                        <button class="header__wrap--btn">
+                            Версия для слабовидящих
+                        </button>
+                    </div>
+                    <div class="social">
+                        <div class="header__social vk">
+                        <a href="https://vk.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/vk.png">
+                        </a>
+                    </div>
+                    <div class="header__social youtube">
+                        <a href="https://www.youtube.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/yuotube.png">
+                        </a>
+                    </div>
+                    <div class="header__social fb">
+                        <a href="https://ru-ru.facebook.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/fb.png">
+                        </a>
+                    </div>
+                    <div class="header__social instagram">
+                        <a href="https://www.instagram.com/" class="header__wrap--link" target="_blank">
+                            <img class="header__social--image" src="images/instagram.png">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="container">
+                <div class="menu__wrap">
+                    <div class="menu--main">
+                        <div class="overlay-content">
+                            <div class="nav--btn" onclick="openNav()">
+                                 <div class="menu--icon"></div>
+                                <div class="menu--icon"></div>
+                                <div class="menu--icon"></div>
+                            </div>
+                            <ul id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <li class="menu__item"><a href="cosmetologiya.html" class="menu__link">Косметология</a></li>
+                                 <li class="menu__item"><a href="#" class="menu__link">Пластическая хирургия</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Стоматология</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Лазерная медицина</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="cosmetologiya.html" class="menu__link">Косметология</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Пластическая хирургия</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Стоматология</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Лазерная медицина</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu--button">
+                        <button class="menu--btn open-popup show-modal">
+                            запись на прием
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="salon__about">
+                <div class="container">
+                    <div class="salon__about--wrap">
+                        <h2 class="salon__about--title">
+                            Клиники Medi в Санкт-Петербурге
+                        </h2>
+                        <span class="salon__about--text">
+                            Часы работы всех клиник Medi c 8.00 до 21.30 (без выходных).<br>
+                            Стоматологическая клиника Medi работает круглосуточно.
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <iframe class="salon__cart" src="https://yandex.ru/map-widget/v1/?um=constructor%3A7f1231c6a66bf94b4fa02fdb7ea72552365860b133f602d4513c266de7294560&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </section>
+            <section>
+                <div class="container">
+                    <ul class="salon--list">
+                        <li class="salon--item">
+                            <img class='salon--img'src="images/icon--newskiy.jpg">
+                            <a href="#" class="salon--link">
+                                Комплекс Medi на Невском
+                            </a>
+                            <div class="salon--main">
+                                <div class="salon--address">
+                                    Невский пр. 140, пом. 10
+                                </div>
+                                <div class="salon__phone">
+                                    <a href="tel: +7 (123) 456 78 90" class="salon__phone--link" target="_blank">+7 (123) 456 78 90</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="salon--item">
+                            <img class='salon--img'src="images/icon--bol'shoy.jpg">
+                            <a href="#" class="salon--link">
+                                Комплекс Medi на Васильевском
+                            </a>
+                            <div class="salon--main">
+                                <div class="salon--address">
+                                    Большой пр. 12
+                                </div>
+                                <div class="salon__phone">
+                                    <a href="tel: +7 (123) 456 78 90" class="salon__phone--link" target="_blank">+7 (123) 456 78 90</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+        <header>
+            <div class="container">
+                <div class="header__wrap wrap__bottom">
+                    <div class="header__wrap--logo">
+                        <a href="index.html" class="header__wrap--link"><img src="images/logo.png" class="main--logo" alt="logo"></a>
+                        <a href="index.html" class="header__wrap--link"><img src="images/text--logo.png" class="text--logo"></a>
+                    </div>
+                    <div class="phone">
+                       <a href="tel: +7 (123) 456 78 90" class="phone--link" target="_blank">+7 (123) 456 78 90</a>
+                    </div>
+                    <div class="address">
+                        <a href="salon.html" class="address--link">Наши салоны</a>
+                    </div>
+                    <div class="header__wrap--button">
+                        <button class="header__wrap--btn">
+                            Версия для слабовидящих
+                        </button>
+                    </div>
+                    <div class="social">
+                        <div class="header__social vk">
+                            <a href="https://vk.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/vk.png">
+                            </a>
+                        </div>
+                        <div class="header__social youtube">
+                            <a href="https://www.youtube.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/yuotube.png">
+                            </a>
+                        </div>
+                        <div class="header__social fb">
+                            <a href="https://ru-ru.facebook.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/fb.png">
+                            </a>
+                        </div>
+                        <div class="header__social instagram">
+                            <a href="https://www.instagram.com/" class="header__wrap--link" target="_blank">
+                                <img class="header__social--image" src="images/instagram.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="popup">
+            <div class="modal hidden">
+              <button class="close-modal">&times;</button>
+              <form class="popup" id="tg">
+                <label>
+                    <div class="label__text">
+                        Ваше имя
+                    </div>
+                    <input class="popup--input" type="text" name="name">
+                </label>
+                <label>
+                    <div class="label__text">
+                        Ваш телефон
+                    </div>
+                    <input class="popup--input" type="tel" name="tel">
+                </label>
+                <label>
+                    <select class="popup--select" id="select">
+                        <option value="1">Выберите направление</option>
+                        <option value="Косметология">Косметология</option>
+                        <option value="Пластическая хирургия">Пластическая хирургия</option>
+                        <option value="Стоматология">Стоматология</option>
+                        <option value="Лазерная медицина">Лазерная медицина</option>
+                    </select>
+                </label>
+                <label for="date"><span class="label__cal">Выберите дату</span><br>
+                <input class="label__cal" type="date" id="date" name="date">
+            </label>
+                <button class="popup--btn" type="submit">Отправить</button>
+              </form>
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="salon.js"></script>
+<script>
+
+const TOKEN = "6634862100:AAEHrOo9A6kSdjugPpCjSNyVSTtgCeQmitA";
+const CHAT_ID = "-996343222";
+const URL_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+let select = document.getElementById('select');
+
+
+document.getElementById('tg').addEventListener('submit', function(e) {
+  e.preventDefault();
+  let message = `Новая Запись на прием: \n`;
+  message +=  `Имя: ${ this.name.value }\n`;
+  message +=  `Телефон: ${ this.tel.value }\n`;
+  message +=  `Направление:  ${ this.select.value }\n`;
+  message +=  `Дата:  ${ this.date.value }\n`;
+
+  axios.post(URL_API, {
+    chat_id: CHAT_ID,
+    parse_mod: 'html',
+    text: message
+  })
+  .then((res) => {
+    this.name.value = "";
+    this.tel.value = "";
+    this.select.value = '';
+    this.date.value = '';
+})
+ })
+
+select.addEventListener('change',(e)=>{
+console.log(select.value);
+})
+
+
+</script>
+</html>

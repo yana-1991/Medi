@@ -44,7 +44,6 @@
     justify-content: start;
 }
 
-
 .first {
     width: 420px;
 }
@@ -163,7 +162,6 @@ h1 {
 }
 
 
-
 .contacts--btn {
     width: 164px;
     height: 45px;
@@ -183,7 +181,6 @@ h1 {
    }
 
 
-
 .about__link {
     font-size: 16px;
     line-height: 22px;
@@ -194,7 +191,15 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-
+.cosmetologiya--main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.salon__about,
+.salon--list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
 
 
@@ -283,6 +288,15 @@ h1 {
         grid-row-gap: 100px;
         grid-column-gap: 100px;
         align-self: center;
+    }
+    .salon--link {
+        font-size: 22px;
+    }
+    .salon--address,
+    .salon__phone,
+    .salon__phone--link{
+        font-size: 16px;
+
     }
 
 }
@@ -383,6 +397,19 @@ h1 {
           padding: 5px;
           font-size: 12px;
         }
+        .salon--img {
+            padding-right: 20px;
+        }
+        .salon--link {
+            font-size: 18px;
+        }
+        .salon--address,
+        .salon__phone,
+        .salon__phone--link{
+            font-size: 12px;
+    
+        }
+    
     }
 
     @media (max-width: 768px){
@@ -461,8 +488,8 @@ h1 {
         .slider-container {
             margin-top: 80px;
             width: 400px;
-        
         }
+
         .slider img {
             width: 400px;
         }
@@ -564,6 +591,33 @@ h1 {
         .wrap__bottom {
             margin-top: 50px;
           }
+
+        .cosmetologiya--video {
+            display: none;
+        }
+
+        .salon__about{
+           padding-top: 30px;
+        }
+        .salon--img {
+            display: none;
+        }
+        .salon--link {
+            font-size: 14px;
+            width: 150px;
+        }
+        .salon--address,
+        .salon__phone,
+        .salon__phone--link{
+            font-size: 10px;
+
+        }
+        .salon--item {
+            margin-bottom: 20px;
+        }
+        .wrap__bottom{
+            margin-top: 30px;
+        }
         }
 
     @media (max-width: 376px){
@@ -588,6 +642,12 @@ h1 {
         .about__top--text {
             width: auto;
             height: auto;
+        }
+        .salon__about--title {
+            font-size: 25px;
+        }
+        .salon__about--text {
+            font-size: 20px;
         }
 
     }
@@ -644,6 +704,10 @@ h1 {
           width: 150px;
           height: 30px;
           font-size: 12px;
+        }
+        .salon--link {
+            font-size: 10px;
+            width: 110px;
         }
     }
        
